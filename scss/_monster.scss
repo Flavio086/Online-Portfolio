@@ -1,0 +1,96 @@
+.monster {
+    &-intro {
+        padding-bottom: 45px;
+        .container {
+            padding-left: 0;
+            margin-left: 0;
+            h1 {
+                margin-bottom: 25px;
+                margin-top: 56px;
+            }
+            p {
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+    &-trend {
+        .container {
+            position: relative;
+        }
+        .trend-box {
+            max-width: 328px;
+            position: absolute;
+            right: 24px;
+            top: 70px
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 500;
+        }
+    }
+    &-game-play {
+        padding-top: 122px;
+        padding-bottom: 80px;
+        h2 {
+            font-weight: 900;
+            font-size: 57.33px;
+            line-height: 70px;
+            margin-bottom: 53px;
+            text-align: center;
+        }
+        .play-steps {
+            margin-top: 60px;
+            margin-bottom: 120px;
+            .step {
+                &:nth-child(even) {
+                    padding-top: 115px;
+                }
+                .step-img {
+                    width: 112.17px;
+                    height: 112.17px;
+                    background: #fff;
+                    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 16px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                p {
+                    font-weight: 500;
+                    padding-left: 30px;
+                    padding-top: 20px;
+                    position: relative;
+                    span:not(.step-num) {
+                        font-size: 13px;
+                        line-height: 17px;
+                        display: block
+                    }
+                    .step-num {
+                        font-weight: 400;
+                        font-size: 33.18px;
+                        line-height: 45px;
+                        color: #544F4F;
+                        font-family: 'Open Sans', sans-serif;
+                        width: 28px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+    &-models {
+        h2 {
+            font-weight: 900;
+            font-size: 57.33px;
+            line-height: 70px;
+            margin-bottom: 53px;
+            text-align: center;
+        }
+        img {
+            height: 190px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+/*** navbar style *****/
+
+.navbar {
+    background-color: rgba($dark_blue, 0.95) !important;
+    padding: 15px 0;
+    .container {
+        padding-right: 24px;
+        padding-left: 24px;
+        max-width: 1200px;
+    }
+    .navbar-brand {
+        text-shadow: 0px 4px 4px rgba($dark_blue, 0.25);
+        font-size: 33px;
+        font-weight: 900;
+        padding: 0;
+    }
+    .navbar-nav {
+        .nav-link {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 500;
+            &.active {
+                color: $green;
+                font-weight: 700;
+                text-shadow: 0px 4px 4px rgba(#000, 0.25);
+            }
+        }
+    }
+    &.navbar-light {
+        background-color: #fff !important;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+        padding: 10px 0 12px 0;
+        .navbar-brand {
+            img {
+                max-height: 55px;
+            }
+        }
+        .navbar-nav {
+            .nav-link {
+                color: #000;
+                font-weight: 500;
+                text-transform: capitalize;
+                &.active {
+                    color: $rose;
+                    font-weight: 700;
+                    text-shadow: 0px 4px 4px rgba(#000, 0.05);
+                }
+            }
+        }
+    }
+}

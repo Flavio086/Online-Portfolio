@@ -1,0 +1,35 @@
+.profile {
+    &-glimmy {
+        padding-top: 52px;
+        padding-bottom: 124px;
+        img {
+            max-width: 100%;
+        }
+        .container {
+            max-width: 720px;
+            padding-left: 20px;
+            padding-right: 28px;
+        }
+        p {
+            font-weight: 500;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+        .profile-intro {
+            margin-top: 84px;
+            margin-bottom: 0;
+        }
+        .bottom-block {
+            .col-auto {
+                img {
+                    width: 100%;
+                    max-width: 164px;
+                    display: block;
+                }
+            }
+        }
+        &.home2 {
+            padding-left: 250px;
+        }
+    }
+}
