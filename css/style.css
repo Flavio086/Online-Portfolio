@@ -44,11 +44,7 @@ h1 {
 
 .profile-title {
   font-weight: 500;
-<<<<<<< HEAD
-  font-size: 50px;
-=======
   font-size: 23.04px;
->>>>>>> parent of c9b5f32 (Update style.css)
   line-height: 28px;
   transition: all 0.3s ease;
 }
